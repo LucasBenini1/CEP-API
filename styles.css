@@ -1,0 +1,46 @@
+body{
+    background: linear-gradient(to right, #f50057, #e53935);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Centralizou */
+}
+form{ 
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    font-size: 1.2rem;
+    margin-right: 10px;
+    font-weight: bold;
+}
+input,
+button{
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f0f0f0;
+}
+button{
+    background-color: #f50057;
+    color: white;
+    cursor: pointer;
+}
+#address{
+    background-color: #f0f0f0;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 20px;
+    padding: 10px;
+
+}
+#address{
+    display: none;
+}
